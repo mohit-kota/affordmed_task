@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Train Schedules</title>
+</head>
+<body>
+  <h1>Train Schedules</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Train Name</th>
+        <th>Train Number</th>
+        <th>Departure Time</th>
+        <th>Seats Available (Sleeper)</th>
+        <th>Seats Available (AC)</th>
+        <th>Price (Sleeper)</th>
+        <th>Price (AC)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% trains.forEach((train) => { %>
+        <tr>
+          <td><%= train.trainName %></td>
+          <td><%= train.trainNumber %></td>
+          <td><%= train.departureTime.Hours %>:<%= train.departureTime.Minutes %>:<%= train.departureTime.Seconds %></td>
+          <td><%= train.seatsAvailable.sleeper %></td>
+          <td><%= train.seatsAvailable.AC %></td>
+          <td><%= train.price.sleeper %></td>
+          <td><%= train.price.AC %></td>
+        </tr>
+      <% }); %>
+    </tbody>
+  </table>
+</body>
+</html>
