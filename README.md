@@ -46,7 +46,7 @@ To set up the Train Schedule Application on your local machine, follow these ste
 ## Technologies Used
 
 - React
-- Backend technology (e.g., Node.js, Python, etc.)
+- Backend technology (e.g., Node.js, Express, etc.)
 - Access Token Authentication
 
 
