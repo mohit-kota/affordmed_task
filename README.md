@@ -1,4 +1,3 @@
-Certainly! Here's the updated description to include the scenario of token expiration and fetching a new token from the authentication API:
 
 # Train Schedule Application
 
